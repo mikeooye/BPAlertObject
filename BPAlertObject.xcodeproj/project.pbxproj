@@ -15,6 +15,7 @@
 		2808980A1AF1051300FD686A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280898081AF1051300FD686A /* LaunchScreen.xib */; };
 		280898161AF1051300FD686A /* BPAlertObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280898151AF1051300FD686A /* BPAlertObjectTests.m */; };
 		280898211AF1052600FD686A /* BPAlertObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 280898201AF1052600FD686A /* BPAlertObject.m */; };
+		289F61811AF1194900C8CD93 /* alert_obj_demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 289F61801AF1194900C8CD93 /* alert_obj_demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		280898151AF1051300FD686A /* BPAlertObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAlertObjectTests.m; sourceTree = "<group>"; };
 		2808981F1AF1052600FD686A /* BPAlertObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAlertObject.h; sourceTree = "<group>"; };
 		280898201AF1052600FD686A /* BPAlertObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAlertObject.m; sourceTree = "<group>"; };
+		289F61801AF1194900C8CD93 /* alert_obj_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alert_obj_demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		280897F91AF1051300FD686A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				289F61801AF1194900C8CD93 /* alert_obj_demo.gif */,
 				280897FA1AF1051300FD686A /* Info.plist */,
 				280897FB1AF1051300FD686A /* main.m */,
 			);
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289F61811AF1194900C8CD93 /* alert_obj_demo.gif in Resources */,
 				280898051AF1051300FD686A /* Main.storyboard in Resources */,
 				2808980A1AF1051300FD686A /* LaunchScreen.xib in Resources */,
 				280898071AF1051300FD686A /* Images.xcassets in Resources */,
@@ -426,6 +430,7 @@
 				2808981B1AF1051300FD686A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2808981C1AF1051300FD686A /* Build configuration list for PBXNativeTarget "BPAlertObjectTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +439,7 @@
 				2808981E1AF1051300FD686A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
